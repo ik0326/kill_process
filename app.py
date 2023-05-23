@@ -25,7 +25,7 @@ def main():
         process_name = split_text(p)
 
         output_text = "kill -9 " + " ".join(process_name)
-        st.write(output_text)
+        st.code(output_text)
 
         #if button is clicked, copy the input text to clipboard
 
