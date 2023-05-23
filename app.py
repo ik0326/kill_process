@@ -1,5 +1,5 @@
 import streamlit as st
-import pyperclip
+# import pyperclip
 
 def text_to_list(text):
     lines = text.split('\n')
@@ -29,11 +29,11 @@ def main():
 
         #if button is clicked, copy the input text to clipboard
 
-        if st.button("copy"):
-            pyperclip.copy(output_text)
-            st.success("Copied to clipboard")
-        elif not process_name:
-            st.error("Please enter the process name")
+        # if st.button("copy"):
+        #     pyperclip.copy(output_text)
+        #     st.success("Copied to clipboard")
+        # elif not process_name:
+        #     st.error("Please enter the process name")
         
     
 
